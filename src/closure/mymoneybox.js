@@ -18,7 +18,7 @@ function moneyBox(){
     return countCoins;
 }
 
-const myMoneyBox = moneyBox();
+const myMoneyBox = moneyBox();//creamos una closure para poder acceder a esa variable por el ambito lexico para despues poder hacer la adicion
 myMoneyBox(5);
 myMoneyBox(24);
 myMoneyBox(15);
